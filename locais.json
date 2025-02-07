@@ -1,0 +1,16 @@
+{
+    "locais": [
+        {
+            "id": 1,
+            "titulo": "Praia do Jacaré",
+            "descricao": "Lugar incrível para ver o pôr do sol ao som do saxofonista.",
+            "foto": "https://exemplo.com/jacare.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Centro Histórico de João Pessoa",
+            "descricao": "Arquitetura colonial e igrejas históricas.",
+            "foto": "https://exemplo.com/centro-historico.jpg"
+        }
+    ]
+}
