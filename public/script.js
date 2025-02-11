@@ -10,11 +10,11 @@ async function carregarLocais() {
         const div = document.createElement("div");
         div.classList.add("local");
         div.innerHTML = `
-            <h2>${local.titulo}</h2>
-            <p>${local.descricao}</p>
-            <img src="${local.foto}" alt="${local.titulo}">
-            <button onclick="editarLocal(${local.id})">Editar</button>
-            <button onclick="excluirLocal(${local.id})">Excluir</button>
+            <div><h2>${local.titulo}</h2>
+            <p>${local.descricao}</p></div>
+            <div class="img"><img src="${local.foto}" alt="${local.titulo}"></div>
+            <div><button onclick="editarLocal('${local.id}')">Editar</button>
+            <button id="trash" onclick="excluirLocal('${local.id}')">Excluir</button></div>
         `;
         listaLocais.appendChild(div);
     });
