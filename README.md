@@ -1,4 +1,4 @@
-# Projeto-LSW - 🌍 Guia de Pontos Turísticos da Paraíba Interativo
+# 🌍 Guia de Pontos Turísticos da Paraíba Interativo
 Este é um projeto de um Guia de Pontos Turísticos da Paraíba, desenvolvido com HTML, CSS e JavaScript. Ele permite que os usuários explorem destinos turísticos de forma dinâmica e organizada.
 
 🚀 Funcionalidades
